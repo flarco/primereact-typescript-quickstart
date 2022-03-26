@@ -40,9 +40,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
 
-      <form className="p-d-flex p-jc-center p-mt-6" onSubmit={onFormSubmit}>
+      <form className="flex justify-content-center pt-6" onSubmit={onFormSubmit}>
         <InputText value={text} onChange={(e : any ) => setText(e.target.value)} />
-        <Button type="submit" label="Submit" icon="pi pi-check" className="p-ml-2"/>
+        <Button type="submit" label="Submit" icon="pi pi-check" className="pl-2"/>
       </form>
     </div>
   );
